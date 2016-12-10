@@ -1,0 +1,18 @@
+  <link href="app/widgets/box_panel/boxPanel.css" rel="stylesheet">
+
+  
+	<div class="col-xs-12" ng-init="vm.initData()">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" ng-repeat="data in vm.boxPanelData">
+            
+            <div class="box">
+                <div class="box-icon">
+                    <span ng-class="data.icon"></span>
+                </div>
+                <div class="info">
+                    <h4 class="text-center">{{data.title}}</h4>
+                    <p>{{data.desc}}</p>
+                    <a ng-href="{{data.link.href}}" target="_blank" class="btn">{{data.link.label}}</a>
+                </div>
+            </div>
+        </div> 
+	</div>

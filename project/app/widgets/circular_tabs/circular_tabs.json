@@ -1,19 +1,54 @@
 [
-	{"que":"Which of the following Information systems are aimed at improving the routine business activities on which all organizations depend?",
-	"answer":"Management Information systems"
-	},
-	{"que":"Which of the following strategies are adopted if information requirements are not well-defined?",
-	"answer":"Structured analysis development method"
-	},
-	{"que":"Which of the following is not a fact-finding technique?",
-	"answer":"Third party enquiry"
-	},
-	{"que":"Which of the following questions are useful in evaluating data flow diagrams?",
-	"answer":"Are there any processes that do not receive input"
-	},
-	{"que":"In system design and development field what does spaghetti code mean?",
-	"answer":"programs written in unstructured languages."
-	}
+  {
+    "title": "शिक्षण",
+    "tooltip": "शिक्षण",
+    "icon": "fa fa-terminal",
+    "desc": "मूल झोपलं आहे.मुलासारखी ही अगदी छोटीशीचं कविता... मुलासारखीच अगदी साधी सरळ आणि निरागसता रचनेतही व्यक्त करणारी...म्हटलं तर अगदी नकारार्थी वास्तवावर तुटून पडणारी आहे ही कविता. पण त्या नकारावर भर न देता अगदी मुलाच्या सहज साध्या जगण्याच्या भावविश्वाचे अगदी सोप्या सरळ मोजक्या शब्दात वर्णन करून कवी शिक्षणव्यवस्थेवर भाष्य करतो.",
+    "link": {
+      "label": "View More",
+      "href": "http://www.google.com"
+    }
+  },
+  {
+    "title": "रस्ता",
+    "tooltip": "रस्ता",
+    "icon": "fa  fa-html5",
+    "desc": "Panel description aand data data.Ther are lota of data and datata",
+    "link": {
+      "label": "View More Data",
+      "href": "http://www.google.com"
+    }
+  },
+  {
+    "title": "Panel1",
+    "tooltip": "Education",
+    "icon": "fa  fa-html5",
+    "desc": "Panel description aand data data.Ther are lota of data and datata",
+    "link": {
+      "label": "View More text",
+      "href": "http://www.google.com"
+    }
+  },
+  {
+    "title": "Panel1",
+    "tooltip": "Education",
+    "icon": "fa fa-html5",
+    "desc": "Panel description aand data data.Ther are lota of data and datata",
+    "link": {
+      "label": "View More text",
+      "href": "http://www.google.com"
+    }
+  },
+  {
+    "title": "Panel1",
+    "tooltip": "Education",
+    "icon": "fa fa-html5",
+    "desc": "Panel description aand data data.Ther are lota of data and datata",
+    "link": {
+      "label": "View More text",
+      "href": "http://www.google.com"
+    }
+  }
 ]
 	
 
