@@ -1,0 +1,31 @@
+<div class="" ng-init="vm.initPlan()">
+				  <div class="header"> 
+                        <h3 class="page-header">
+                            Referrals Plan <small>Referral Policy </small>
+                        </h3>
+		  </div>
+		 
+		
+            <div id="page-inner"> 
+			<referel-faq-directive> </referel-faq-directive>
+			<my-directive> </my-directive>
+               
+            <div class="row">
+					<div class="col-md-12">
+					<div class="panel panel-default">
+					 <div class="panel-heading">
+                             Policy Plan
+                        </div>
+					<ul>
+					 <li ng-repeat="item in vm.ReferalPlan">
+						  <h4>{{item.policy}}</h4>
+					   </li>
+					</ul>
+                    <!--End Advanced Tables -->
+					</div>
+				</div>
+			
+                    <!--End Advanced Tables -->
+                </div>
+            </div>
+</div>
