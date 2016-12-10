@@ -12,7 +12,7 @@
 			scope: {
 				callback: "&"
 			},
-			templateUrl:  'app/referal-faq/widget/box_panel.html', 
+			templateUrl:  'app/referal-faq/widget/box_panel.html',
 			controllerAs: 'vm'
 		} 
 	}
