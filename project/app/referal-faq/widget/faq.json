@@ -1,0 +1,20 @@
+[
+	{"que":"Which of the following Information systems are aimed at improving the routine business activities on which all organizations depend?",
+	"answer":"Management Information systems"
+	},
+	{"que":"Which of the following strategies are adopted if information requirements are not well-defined?",
+	"answer":"Structured analysis development method"
+	},
+	{"que":"Which of the following is not a fact-finding technique?",
+	"answer":"Third party enquiry"
+	},
+	{"que":"Which of the following questions are useful in evaluating data flow diagrams?",
+	"answer":"Are there any processes that do not receive input"
+	},
+	{"que":"In system design and development field what does spaghetti code mean?",
+	"answer":"programs written in unstructured languages."
+	}
+]
+	
+
+	

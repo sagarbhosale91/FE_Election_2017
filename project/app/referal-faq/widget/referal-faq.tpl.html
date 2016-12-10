@@ -1,0 +1,32 @@
+ <link href="app/referal-faq/widget/boxPanel.css" rel="stylesheet">
+<div class="" ng-init="vm.initFaq()">
+				  <div class="header"> 
+                        <h3 class="page-header">
+                            Referrals FAQ<small>Questions And Answers</small>
+                        </h3>
+		  </div>
+		 
+		
+            <div id="page-inner" style="overflow:hidden"> 
+			
+               
+            <div class="row">
+			<div class="col-md-12">
+					<div class="panel panel-default">
+					 <div class="panel-heading sagar">
+                             FAQ
+                        </div>
+					<ol>
+					 <li ng-repeat="object in vm.ReferalFaq">
+						  <h4> Question:</h4><span>{{object.que}}</span>
+						  <h4> Answer:</h4><span>{{object.answer}}</span>
+					   </li>
+					</ol>
+                    <!--End Advanced Tables -->
+					</div>
+			</div>
+					
+                    <!--End Advanced Tables -->
+                </div>
+            </div>
+</div>
