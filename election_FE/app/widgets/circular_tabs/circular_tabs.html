@@ -1,0 +1,36 @@
+<link rel="stylesheet" type="text/css" href="app/widgets/circular_tabs/circular_tabs.css">
+
+
+<div class="row ct" ng-init="vm.initData();">
+        <div class="board">
+            <div class="board-inner">
+                <ul class="nav nav-tabs" id="myTab">
+                    <div class="liner"></div>
+                    <li ng-class="{'active':$first}" ng-repeat="data in vm.circularTabData">
+                        <a ng-href="#{{'tab'+$index}}" data-toggle="tab" title="tooltip">
+                      <span class="round-tabs one">
+                              <i ng-class="data.icon"></i>
+                      </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+                <div ng-class="{'active':$first}" class="tab-pane fade in" id="{{'tab'+$index}}" ng-repeat="data in vm.circularTabData">
+                    <h3 class="head text-center">{{data.title}}</h3>
+                    <p class="narrow text-center">{{data.desc}}</p>
+
+                    <p class="text-center">
+                        <a ng-href="{{data.link.href}}" target="_blank" class="btn btn-success btn-outline-rounded green"> {{data.link.label}} <span style="margin-left:10px;" class="glyphicon glyphicon-send"></span></a>
+                    </p>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+
+        </div>
+</div>
+<script> $(function () {
+    $('a[title]').tooltip();
+});</script>
